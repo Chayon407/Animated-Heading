@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+
+body {
+   margin: 0;
+   font-weight: 400px;
+   box-sizing: border-box;
+   line-height: 28px;
+   font-size: 16px;
+   font-family: 'Poppins', sans-serif;
+   color: #ffff;
+}
+
+#hero {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/img/animated.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   text-align: center;
+   position: relative;
+}
+
+.container {
+   max-width: 1040px;
+   margin: auto;
+}
+
+.hero-text-box {
+   position: absolute;
+   left: 50%;
+   top: 40%;
+   width: 100%;
+   transform: translate(-50%, -50%);
+}
+
+ul li {
+   list-style-type: none;
+   display: inline-block;
+}
+
+ul li i {
+   color: #fff;
+
+}
+
+a {
+   text-decoration: none;
+
+   padding: 0 10px;
+}
+
+h1,
+h5 {
+   margin: 0;
+}
+
+h5 {
+   font-size: 50px;
+   margin-bottom: 40px;
+}
+
+h1 {
+   font-size: 40px;
+   text-transform: uppercase;
+}
+
+.icon ul li a {
+   background: rgba(0, 0, 0, 0.3);
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   padding: 7px;
+   line-height: 35px;
+}
+
+.icon {
+   margin-top: 23px;
+   margin-right: 10px;
+}
+
+.ok {
+   font-weight: 200;
+   margin-right: 10px;
+}
+
+#hero .ah-headline.clip .ah-words-wrapper::after {
+   background-color: #fff;
+
+
+}
